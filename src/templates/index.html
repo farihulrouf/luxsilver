@@ -24,7 +24,7 @@
   <body>
     <!-- Add your site or application content here -->
     <header class="absolute w-full z-50 px-4">
-      <div class="conttainer mx-auto py-10">
+      <div class="container mx-auto py-10">
         <div class="flex flex-stretch items-center">
           <div class="w-56 flex items-center">
             <img src="images/desaign/logo.svg" alt="Logo Luxspace">
@@ -32,7 +32,9 @@
           <div class="w-full"></div>
           <!-- menu humbergur wrappr-->
           <div class="w-auto">
-            <ul class="fixed bg-white inset-0 flex-col invisible items-center
+            <ul 
+            id="menu"
+            class="fixed bg-white inset-0 flex-col invisible items-center
             justify-center opacity-0 md:visible md:flex-row md:bg-transparent md:relative md:opacity-100 md:flex">
               <li class="mx-3 py-6 md:py-0">
                 <a href="#" class="text-black hover:text-white hover:underline">
@@ -140,11 +142,113 @@
             
             </button> 
           </div>
-            <img class="absolute inset-0 md:relative w-full h-full object-cover object-center" src="images/content/image_hero.png" alt="House with sofa">
+            <img class="absolute inset-0 md:relative 
+            w-full h-full object-cover object-center" src="images/content/image_hero.png" alt="House with sofa">
         </div>
       </div>
     </section> 
     <!-- end  section hero-->
+
+    <section class="flex bg-gray-100 py-16 px-4" id="browse-the-room-wrapper">
+      <div class="container mx-auto">
+        <div class="flex flex-start mb-4">
+          <h3 class="text-2xl capitalize font-semibold">
+            Browse ther room <br class=" "/>that we desaigned for you
+          </h3>
+        </div>
+
+        <div class="grid grid-rows-2 grid-cols-9 gap-4">
+          <!--start room 1-->
+          <div class="relative col-span-9 row-span-1 md:col-span-4 card" styles="height: 180px;">
+            <div class="card-shadow rounded-xl">
+              <img src="./images/content/image_catalog-1.png" alt=" " 
+              class="w-full h-full object-cover overflow-hidden rounded-xl"
+              />
+            </div>
+
+            <div class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72">
+              <h4 class="text-lg font-semibold">
+                Living room
+              </h4>
+              <span class="">18.399 items</span>
+            </div>
+
+            <a href="details.html" class="streched-link">
+              <!-- fake childreen -->
+            </a>
+          </div>
+          <!--end room 1 -->
+
+          <!-- start room 2 -->
+          <div class="relative col-span-9 row-span-1 md:col-span-2 md:row-span-2 card">
+            <div class="card-shadow rounded-xl">
+              <img src="./images/content/image_catalog-4.png" alt=" " 
+              class="w-full h-full object-cover overflow-hidden rounded-xl"
+              />
+            </div>
+
+            <div class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72">
+              <h4 class="text-lg font-semibold">
+                Living room
+              </h4>
+              <span class="">18.399 items</span>
+            </div>
+
+            <a href="details.html" class="streched-link">
+              <!-- fake childreen -->
+            </a>
+          </div>
+          <!-- start room 2 -->
+
+          <!-- start room 3 -->
+          <div class="relative col-span-9 row-span-1 md:col-span-3 md:row-span-2 card">
+            <div class="card-shadow rounded-xl">
+              <img src="./images/content/image_catalog-3.png" alt=" " 
+              class="w-full h-full object-cover overflow-hidden rounded-xl"
+              />
+            </div>
+
+            <div class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72">
+              <h4 class="text-lg font-semibold">
+                Living room
+              </h4>
+              <span class="">18.399 items</span>
+            </div>
+
+            <a href="details.html" class="streched-link">
+              <!-- fake childreen -->
+            </a>
+          </div>
+          
+          <!-- start room 4 -->
+          <div class="relative col-span-9 row-span-1 md:col-span-4 card">
+            <div class="card-shadow rounded-xl">
+              <img src="./images/content/image_catalog-2.png" alt=" " 
+              class="w-full h-full object-cover overflow-hidden rounded-xl"
+              />
+            </div>
+
+            <div class="overlay left-0 top-0 bottom-0 flex justify-center flex-col pl-48 md:pl-72">
+              <h4 class="text-lg font-semibold">
+                Children Room
+              </h4>
+              <span class="">18.399 items</span>
+            </div>
+
+            <a href="details.html" class="streched-link">
+              <!-- fake childreen -->
+            </a>
+          </div>
+           
+          
+
+          
+          
+
+        </div>
+      </div>
+
+    </section>
     
     <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
     <script>
